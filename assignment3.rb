@@ -32,7 +32,7 @@
 
 class Assignment3
   def reduce_string
-    puts "Enter string to be reduced: "
+    puts 'Enter string to be reduced: '
     line = gets.chomp
     puts line
     counter = 0
@@ -42,9 +42,7 @@ class Assignment3
         reduced_line = ''
           line.each_char do |char|
             counter = counter + 1
-            if counter % 2 != 0
-              reduced_line << char
-            end
+            reduced_line << char if counter % 2 != 0
           end
           line = reduced_line
           reduced_line = ''
