@@ -21,7 +21,6 @@
 # Sample Output
 # YES
 # NO
-require 'pry'
 
 class Assignment2
   def get_num_of_test_cases
